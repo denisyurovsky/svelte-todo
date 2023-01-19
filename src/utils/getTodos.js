@@ -3,15 +3,15 @@ export function getTodos() {
     setTimeout(() => {
       resolve([
         {
-          id: performance.now(),
+          id: Math.random(),
           text: "Todo item 1",
         },
         {
-          id: performance.now(),
+          id: Math.random(),
           text: "Todo item 2",
         },
         {
-          id: performance.now(),
+          id: Math.random(),
           text: "Todo item 3",
         },
       ]);
